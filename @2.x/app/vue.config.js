@@ -4,7 +4,7 @@ module.exports = {
       https: false,
       open: {
         app: {
-          name: "microsoft edge",
+          name: "Google Chrome",
           arguments: ["--incognito", "--new-window"],
         },
       },
