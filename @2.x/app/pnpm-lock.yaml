@@ -12,6 +12,7 @@ specifiers:
   less-loader: '5'
   reset-css: ^5.0.1
   vue: ^2.6.11
+  vue-router: ^3.5.3
   vue-template-compiler: ^2.6.11
 
 dependencies:
@@ -20,6 +21,7 @@ dependencies:
   less-loader: 5.0.0_less@4.1.2
   reset-css: 5.0.1
   vue: registry.npmmirror.com/vue/2.6.14
+  vue-router: 3.5.3
 
 devDependencies:
   '@vue/cli-plugin-babel': registry.npmmirror.com/@vue/cli-plugin-babel/4.5.15_4c1e5ebbf041a85328f9984e4ede8f8a
@@ -365,6 +367,10 @@ packages:
       webpack: registry.npmmirror.com/webpack/4.46.0
     dev: true
     optional: true
+
+  /vue-router/3.5.3:
+    resolution: {integrity: sha512-FUlILrW3DGitS2h+Xaw8aRNvGTwtuaxrRkNSHWTizOfLUie7wuYwezeZ50iflRn8YPV5kxmU2LQuu3nM/b3Zsg==}
+    dev: false
 
   /watchpack-chokidar2/2.0.1:
     resolution: {integrity: sha512-nCFfBIPKr5Sh61s4LPpy1Wtfi0HE8isJ3d2Yb5/Ppw2P2B/3eVSEBjKfN0fmHJSK14+31KwMKmcrzs2GM4P0Ww==}
